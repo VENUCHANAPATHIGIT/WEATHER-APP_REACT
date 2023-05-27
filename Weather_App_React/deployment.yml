@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: weather-app-container
-        image: weatherappacrrepo.azurecr.io/weatherappacrrepo:133
+        image: weatherappacrrepo.azurecr.io/weatherappacrrepo:latest
         resources:
           limits:
             cpu: 1
