@@ -33,5 +33,5 @@ steps:
     connectionType: 'kubernetesServiceConnection'
     kubernetesServiceConnection: 'myakscluster'
     manifests: |
-      $(Build.SourcesDirectory)/deployment.yml
-      $(Build.SourcesDirectory)/service.yml
+      $(Build.SourcesDirectory)/Weather_App_React/deployment.yml
+      $(Build.SourcesDirectory)/Weather_App_React/service.yml
